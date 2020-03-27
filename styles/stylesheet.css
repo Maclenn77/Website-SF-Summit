@@ -66,17 +66,18 @@ a:hover {
 .main-program {
   background-color: var(--dark);
   height: 30vw;
+  position: relative;
 }
 
-.main-program {
+.main-program::after {
   content: "";
-  background: url("/img/SpacePattern.png") bottom no-repeat;
-  background-size: cover;
+  background: url("/img/rocket.jpg") bottom repeat;
+  background-size: 24px auto;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  opacity: 0.1;
-  z-index: -1;
+  opacity: 0.05;
+  z-index: 1;
 }
