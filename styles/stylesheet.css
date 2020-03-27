@@ -65,8 +65,9 @@ a:hover {
 
 .main-program {
   background-color: var(--dark);
-  height: 30vw;
+  height: auto;
   position: relative;
+  z-index: -2;
 }
 
 .main-program::after {
@@ -79,5 +80,27 @@ a:hover {
   right: 0;
   position: absolute;
   opacity: 0.05;
-  z-index: 1;
+  z-index: -1;
+}
+
+.dark-theme-text {
+  text-align: center;
+  color: var(--secondary)
+}
+
+hr {
+  background-color: var(--primary);
+  height: 0.05em;
+  border: none;
+  width: 2rem;
+}
+
+h4 {
+  color: var(--primary);
+}
+
+.box-program {
+  height: auto;
+  position: relative;
+  background-color: rgba(211, 211, 211, 0.1);
 }
