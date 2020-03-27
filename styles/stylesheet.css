@@ -1,0 +1,40 @@
+/* CSS File for Capstone Project SF Summit */
+/* CSS File for Capstone Project SF Summit */
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  color: #272A31;
+}
+
+:root {
+  --primary: #ec5242;
+  --secondary: #d3d3d3;
+  --dark: #272A31;
+}
+
+h1 {
+  font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
+  color: var(--primary);
+}
+
+h2 {
+  opacity: var(--muted);
+}
+
+a {
+  color: var(--dark);
+}
+
+a:hover {
+  text-decoration-color: var(--primary);
+}
+
+.box-highlight {
+  box-sizing: border-box;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.box-event {
+
+}
