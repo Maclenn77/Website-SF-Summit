@@ -6,6 +6,7 @@ body {
   color: #272A31;
 }
 
+
 :root {
   --primary: #ec5242;
   --secondary: #d3d3d3;
@@ -31,10 +32,51 @@ a:hover {
 
 .box-highlight {
   box-sizing: border-box;
-  border: 2px solid var(--primary);
+  border: 0.2rem solid var(--primary);
   color: var(--primary);
+  padding: 0.3rem;
 }
 
 .box-event {
+  border: 0.5rem solid #fff;
+  background-color: var(--light);
+  width: 30vw;
+  padding: .3rem;
+}
 
+.hero-image {
+  height: 80vw;
+  width: auto;
+  position: relative;
+}
+
+.hero-image::after {
+  content: "";
+  background: url("/img/saturn-planet-pattern.jpg") bottom no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.main-program {
+  background-color: var(--dark);
+  height: 30vw;
+}
+
+.main-program {
+  content: "";
+  background: url("/img/SpacePattern.png") bottom no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
 }
