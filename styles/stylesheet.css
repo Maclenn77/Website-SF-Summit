@@ -1,14 +1,22 @@
 /* CSS File for Capstone Project SF Summit */
 /* CSS File for Capstone Project SF Summit */
-@@font-face {
+@font-face {
   font-family: 'Cocogoose';
   src: url('styles/fonts/Cocogoose.ttf') Format('truetype');
+}
+
+* {
+  border-radius: 0 !important;
 }
 
 body {
   font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
   color: #272A31;
+}
+
+article {
+  margin: 0;
 }
 
 
@@ -32,12 +40,18 @@ h1 {
   color: transparent;
 }
 
-.main-h1 {
-
+.icons {
+  width: 100%;
+  height: auto;
 }
 
 .primary {
   color: #ec5242;
+}
+
+time {
+  font-family: "Cocogoose", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
 }
 
 a {
@@ -58,17 +72,17 @@ a:hover {
 .box-event {
   border: 0.5rem solid #fff;
   background-color: var(--light);
-  width: 80vw;
+  margin: auto;
   padding: .3rem;
 }
 
-.hero-image {
-  height: 80vw;
-  width: auto;
-  position: relative;
+
+
+.jumbotron {
+  background: none;
 }
 
-.hero-image::after {
+.jumbotron::after {
   content: "";
   background: url("/img/saturn-planet-pattern.jpg") bottom no-repeat;
   background-size: cover;
@@ -86,6 +100,7 @@ a:hover {
   height: auto;
   position: relative;
   z-index: -2;
+  padding: 1rem;
 }
 
 .main-program::after {
@@ -123,6 +138,10 @@ h4 {
   background-color: rgba(211, 211, 211, 0.1);
 }
 
+.bgprimary {
+  background-color: var(--primary);
+}
+
 .info {
   color: var(--primary);
 }
@@ -144,8 +163,27 @@ h4 {
 
 .photo-author {
   width: 50vw;
+  background-image: url("/img/SpacePattern.png");
 }
 
 .bio-author {
   width: 80vw;
+}
+
+.fas,
+.fab {
+  font-size: 36px;
+  height: 50px;
+}
+
+button,
+.program,
+.fas,
+.fab {
+  color: var(--secondary);
+}
+
+button {
+  margin: 1rem 20%;
+  border: none;
 }

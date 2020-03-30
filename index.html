@@ -10,13 +10,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" media="screen" />
 
     <title>Sci-Fi Summit</title>
   </head>
   <body>
     <!-- Navbar of the site. It uses a bootstrap tooggler button -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <a class="d-none d-md-block navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,35 +41,59 @@
     </nav>
     <!-- Main section -->
     <main>
-      <div class="jumbotron">
-        <h2 class="primary">"Connect with the future!"</h2>
-        <h1 class="display-4 text-uppercase jumbotron-title">Microverse Remote Sci-Fi Summit 2020</h1>
-        <p class="lead box-event">The best Sci-Fi writers of the space-time will be in the same Zoom's Conference!</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-</div>
-      <article class="main-program">
-        <h2 class="dark-theme-text"> Trying this h2 </h2>
-        <hr>
-        <div class="d-flex box-program">
-          <i class="">Test</i>
-          <h4 class="font-weight-bold">Titlte</h4>
-          <p>:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
-        </div>
+      <!-- Jumbotron  -->
+      <article class="jumbotron">
+          <h2 class="primary">"Connect with the future!"</h2>
+          <h1 class="display-4 text-uppercase jumbotron-title">Microverse Remote Sci-Fi Summit 2020</h1>
+          <p class="lead box-event">The best Sci-Fi writers of the space-time will be in the same Zoom's Conference!</p>
+          <time class="text-uppercase text-muted" datetime="2015-10-15">2020.03.27(Fri) ~ 31(Tue)</time>
+          <p class="lead text-muted"> @ Foundation, in the Edge of the Galactic Empire</p>
       </article>
-      <article class="">
-        <h2 class="text-align-center">Featured Speakers</h2>
+      <!-- Main program  -->
+      <article class="main-program">
+        <h2 class="dark-theme-text"> Main Program </h2>
         <hr>
+        <!-- Lecture section -->
+        <section class="d-flex box-program m-3">
+          <i class='fas fa-chalkboard-teacher mx-2 my-auto'></i>
+          <h4 class="font-weight-bold mx-2 my-auto">Lecture</h4>
+          <p class="mx-2 my-4 program">Listen to the best Sci-Fi authors of all the ages and places talking about IA, space-time travels, and post-apocalyptic futures. </p>
+        </section>
+        <section class="d-flex box-program m-3">
+          <i class='fas fa-robot mx-2 my-auto'></i>
+          <h4 class="font-weight-bold mx-2 my-auto">Robot exhibition</h4>
+          <p class="mx-2 my-4 program">Discover the last models of humanoids, androids, and virtual assistants, organized by the Asimov Foundation.</p>
+        </section>
+        <section class="d-flex box-program m-3">
+            <i class='fab fa-galactic-republic mx-2 my-auto'></i>
+            <h4 class="font-weight-bold mx-2 my-auto">Galactic Forum</h4>
+            <p class="mx-2 my-4 program">Discuss time travels hypothesis, conspiration theories, and alternative universes with all kinds of intelligent species.</p>
+          </section>
+          <section class="d-flex box-program m-3">
+              <i class='fas fa-user-astronaut mx-2 my-auto'></i>
+              <h4 class="font-weight-bold mx-2 my-auto">Space traveling</h4>
+              <p class="mx-2 my-4 program">Check the new spacial resorts and hotspots of the Galaxy Empire.</p>
+            </section>
+            <section class="d-flex box-program m-3">
+                <i class='fas fa-atom mx-2 my-auto'></i>
+                <h4 class="font-weight-bold mx-2 my-auto">Microverse Networking</h4>
+                <p class="mx-2 my-4 program">Join the networking meetings to achieve atomic bonds with Sci-Fi authors and fans of all the Galaxy.</p>
+              </section>
+              <div class="text-center">
+                <button type="button" class="btn bgprimary btn-lg">Join MR Sci-Fi Summit 2020</button>
+              </div>
+      </article>
+      <!-- Featured Speakers -->
+    </article>
+      <article class="">
+        <h2 class="text-center">Featured Speakers</h2>
         <hr>
         <div class="container">
           <div class="row no-gutters">
             <figure class="d-flex col-12 col-md-6">
               <div class="photo-author">
                 <img src="img/SpacePattern.png" alt="Space Pattern" class="background-speakers">
-                <img src="img/speakers/hg-wells.jpg" alt="H.G. Wells" class="speakers">
+                <img src="img/speakers/hgwells.webp" alt="H.G. Wells" class="speakers">
               </div>
               <figcaption class="bio-author">
                   <h3>H. G. Wells</h3>
