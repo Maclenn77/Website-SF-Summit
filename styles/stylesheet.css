@@ -1,5 +1,10 @@
 /* CSS File for Capstone Project SF Summit */
 /* CSS File for Capstone Project SF Summit */
+@@font-face {
+  font-family: 'Cocogoose';
+  src: url('styles/fonts/Cocogoose.ttf') Format('truetype');
+}
+
 body {
   font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
@@ -14,12 +19,25 @@ body {
 }
 
 h1 {
+
   font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
   color: var(--primary);
 }
 
-h2 {
-  opacity: var(--muted);
+/* Create a background for the font */
+.jumbotron-title {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/727/437/191/sci-fi-galaxy-orange-space-wallpaper-preview.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.main-h1 {
+
+}
+
+.primary {
+  color: #ec5242;
 }
 
 a {
@@ -40,7 +58,7 @@ a:hover {
 .box-event {
   border: 0.5rem solid #fff;
   background-color: var(--light);
-  width: 30vw;
+  width: 80vw;
   padding: .3rem;
 }
 
@@ -103,4 +121,31 @@ h4 {
   height: auto;
   position: relative;
   background-color: rgba(211, 211, 211, 0.1);
+}
+
+.info {
+  color: var(--primary);
+}
+
+.speakers {
+  max-width: 50%;
+  position: relative;
+}
+
+.background-speakers {
+  height: 30%;
+  width: auto;
+  top: -15px;
+  left: 0;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.photo-author {
+  width: 50vw;
+}
+
+.bio-author {
+  width: 80vw;
 }
