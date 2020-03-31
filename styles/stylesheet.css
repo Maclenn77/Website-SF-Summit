@@ -13,7 +13,6 @@
 
 body {
   width: 100%;
-  margin: 0;
   font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
 }
@@ -268,8 +267,7 @@ button,
 
 .logo {
   display: block;
-  margin: 1rem;
-  width: 300px;
+  width: 220px;
 }
 
 .partner {
@@ -291,15 +289,23 @@ footer .fas {
   margin-bottom: .5rem;
 }
 
+#navbarNav i:not(.collapsed):after {
+  color: var(--primary);
+}
+
 #summary div.collapsing {
   min-height: 50px !important;
 }
 
 #summary a.collapsed:after  {
+  color: var(--primary);
   display: block;
   width: 100%;
+  background-color: #fff;
   border: solid;
   text-align: center;
+  overflow: hidden;
+  z-index: +2;
   content: 'More +';
 }
 
@@ -308,7 +314,19 @@ footer .fas {
   width: 100%;
   border: solid;
   text-align: center;
+  overflow: hidden;
   content: 'Less -';
+}
+
+.partners {
+  justify-content: flex-end;
+  align-items: baseline;
+  height: 50px;
+  margin: auto;
+}
+
+footer {
+  height: 150px;
 }
 
 @media screen and (min-width: 768px) {
@@ -419,7 +437,8 @@ footer .fas {
     content: 'Less -';
   }
 
-
-
+  footer {
+    height: 150px;
+  }
 
 }
