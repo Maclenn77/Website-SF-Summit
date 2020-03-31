@@ -194,8 +194,6 @@ h4 {
   color: var(--primary);
 }
 
-
-
 .box-program {
   width: 95%;
   height: auto;
@@ -395,5 +393,33 @@ footer .fas {
   .card {
     margin-bottom: .5rem;
   }
+
+  #summary div.collapse.show {
+    overflow: visible;
+  }
+
+  #summary div.collapse:not(.show) {
+    display: block;
+    overflow: visible;
+  }
+
+  #summary a.collapsed:after  {
+    display: none;
+    width: 100%;
+    border: solid;
+    text-align: center;
+    content: 'More +';
+  }
+
+  #summary a:not(.collapsed):after {
+    display: none;
+    width: 100%;
+    border: solid;
+    text-align: center;
+    content: 'Less -';
+  }
+
+
+
 
 }
