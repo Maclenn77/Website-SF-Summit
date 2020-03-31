@@ -6,19 +6,39 @@
 }
 
 * {
+  box-sizing: border-box;
   border-radius: 0 !important;
+  margin: auto;
 }
 
 body {
+  width: 100%;
+  margin: 0;
   font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
-  color: #272A31;
 }
 
-article {
+.header .fab {
+  font-size: 14px;
+  height: 16px;
+}
+
+nav,
+.navbar {
+  width: 100%;
+}
+
+main {
+  width: 100%;
   margin: 0;
 }
 
+/* article {
+  box-sizing: content-box;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+} */
 
 :root {
   --primary: #ec5242;
@@ -26,14 +46,25 @@ article {
   --dark: #272A31;
 }
 
-h1 {
-
+h1, {
   font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
-  color: var(--primary);
+}
+
+.dark {
+  color: var(--dark);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 /* Create a background for the font */
 .jumbotron-title {
+  font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
   background-image: url(https://c4.wallpaperflare.com/wallpaper/727/437/191/sci-fi-galaxy-orange-space-wallpaper-preview.jpg);
   background-clip: text;
   -webkit-background-clip: text;
@@ -46,7 +77,16 @@ h1 {
 }
 
 .primary {
-  color: #ec5242;
+  color: #ec5242 !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: var(--secondary);
+  font-weight: bold;
 }
 
 time {
@@ -58,8 +98,20 @@ a {
   color: var(--dark);
 }
 
+footer a,
+header a {
+  color: var(--secondary);
+}
+
 a:hover {
-  text-decoration-color: var(--primary);
+  opacity: 0.8;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--dark);
+  text-decoration: none;
 }
 
 .box-highlight {
@@ -76,10 +128,16 @@ a:hover {
   padding: .3rem;
 }
 
+.navbar {
+  margin: 0;
+}
 
 
 .jumbotron {
   background: none;
+  margin: 0;
+  padding-left: 5vw;
+  position: relative;
 }
 
 .jumbotron::after {
@@ -92,7 +150,7 @@ a:hover {
   right: 0;
   position: absolute;
   opacity: 0.1;
-  z-index: -1;
+  z-index: -2;
 }
 
 .main-program {
@@ -100,7 +158,6 @@ a:hover {
   height: auto;
   position: relative;
   z-index: -2;
-  padding: 1rem;
 }
 
 .main-program::after {
@@ -128,46 +185,45 @@ hr {
   width: 2rem;
 }
 
-h4 {
+.author {
+  background-color: var(--secondary);
+  height: 0.1rem;
+  border: none;
+  width: 1.2rem;
+}
+
+h1 {
   color: var(--primary);
 }
 
+h4 {
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
+
+
 .box-program {
+  width: 95%;
   height: auto;
-  position: relative;
   background-color: rgba(211, 211, 211, 0.1);
+  margin: 1.2rem auto;
 }
 
 .bgprimary {
   background-color: var(--primary);
 }
 
-.info {
-  color: var(--primary);
-}
-
 .speakers {
-  max-width: 50%;
-  position: relative;
+  max-width: 150px;
+  height: auto;
 }
 
-.background-speakers {
-  height: 30%;
-  width: auto;
-  top: -15px;
-  left: 0;
-  position: absolute;
-  opacity: 0.5;
-  z-index: -1;
-}
-
-.photo-author {
-  width: 50vw;
+.background-author {
   background-image: url("/img/SpacePattern.png");
-}
-
-.bio-author {
-  width: 80vw;
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: top left;
 }
 
 .fas,
@@ -177,13 +233,124 @@ h4 {
 }
 
 button,
-.program,
 .fas,
 .fab {
   color: var(--secondary);
 }
 
-button {
+.icon-event {
+  width: 20%;
+}
+
+.name-event {
+  width: 20%;
+}
+
+.program {
+  width: 60%;
+  color: var(--secondary);
+}
+
+
+.bgprimary {
   margin: 1rem 20%;
   border: none;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  color: var(--dark);
+  font-weight: 700;
+  margin-top: .3rem;
+}
+
+.card-block {
+  max-height: 150px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.logo {
+  display: block;
+  margin: 1rem;
+  width: 300px;
+}
+
+.partner {
+  background-color: var(--dark);
+  height: auto;
+}
+
+footer,
+footer .fas {
+  color: var(--dark);
+}
+
+.card {
+  max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  .box-event {
+    margin-right: 35%;
+  }
+
+  .main-program {
+    height: 28rem;
+  }
+
+  .events {
+    width: 100%;
+    margin: auto;
+  }
+
+  .box-program {
+    width: 20%;
+    height: 180px;
+    font-size: 0.7rem;
+    background-color: rgba(211, 211, 211, 0.1);
+    margin: auto 0.2rem;
+  }
+
+  .icon-event {
+    font-size: 1.6rem;
+    width: auto;
+    padding: 20px;
+    height: 45px;
+  }
+
+  .name-event {
+    padding-top: 8px;
+    width: auto;
+    height: 45px;
+  }
+
+  .program {
+    width: auto;
+    height: 90px;
+    text-align: center;
+    color: var(--secondary);
+  }
+
+  .whole-program {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  .bg-tranparency {
+    background-color: #fff;
+    opacity: 1;
+  }
+
+
 }

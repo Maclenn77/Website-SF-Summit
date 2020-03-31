@@ -16,119 +16,192 @@
     <title>Sci-Fi Summit</title>
   </head>
   <body>
+    <!-- Header -->
+    <header class="d-none d-md-flex bg-dark justify-content-end align-items-center px-5">
+      <div class="header">
+        <a href="#"><i class="fab fa-facebook-f m-1"> </i></a>
+        <a href="#"><i class="fab fa-twitter m-1"></i></a>
+        <a href="#" class="m-1">English</a>
+        <a href="#" class="m-1">My Page</a>
+        <a href="#" class="m-1">Log Out</a>
+      </div>
+    </header>
     <!-- Navbar of the site. It uses a bootstrap tooggler button -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-      <a class="d-none d-md-block navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-tranparency px-5">
+      <a class="d-none d-md-block navbar-brand" href="#">
+        <img src="img/sci-fi.png" alt="Sci-Fi logo" class="img-fluid w-50">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars text-muted dark"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link primary" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Program</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Join</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
           </li>
         </ul>
       </div>
+      <a href="#" class="box-highlight d-none d-md-block">Sci-Fi Campaign</a>
     </nav>
     <!-- Main section -->
     <main>
       <!-- Jumbotron  -->
       <article class="jumbotron">
           <h2 class="primary">"Connect with the future!"</h2>
-          <h1 class="display-4 text-uppercase jumbotron-title">Microverse Remote Sci-Fi Summit 2020</h1>
-          <p class="lead box-event">The best Sci-Fi writers of the space-time will be in the same Zoom's Conference!</p>
+          <h1 class="display-4 text-uppercase jumbotron-title">Microverse Remote <br class="d-none d-md-inline">Sci-Fi Summit 2020</h1>
+          <p class="lead box-event">The best Sci-Fi writers of the space-time will be in the same Zoom's Conference sharing their experiences and vision of the future</p>
           <time class="text-uppercase text-muted" datetime="2015-10-15">2020.03.27(Fri) ~ 31(Tue)</time>
           <p class="lead text-muted"> @ Foundation, in the Edge of the Galactic Empire</p>
       </article>
       <!-- Main program  -->
-      <article class="main-program">
+      <article class="main-program py-4">
         <h2 class="dark-theme-text"> Main Program </h2>
         <hr>
         <!-- Lecture section -->
-        <section class="d-flex box-program m-3">
-          <i class='fas fa-chalkboard-teacher mx-2 my-auto'></i>
-          <h4 class="font-weight-bold mx-2 my-auto">Lecture</h4>
-          <p class="mx-2 my-4 program">Listen to the best Sci-Fi authors of all the ages and places talking about IA, space-time travels, and post-apocalyptic futures. </p>
-        </section>
-        <section class="d-flex box-program m-3">
-          <i class='fas fa-robot mx-2 my-auto'></i>
-          <h4 class="font-weight-bold mx-2 my-auto">Robot exhibition</h4>
-          <p class="mx-2 my-4 program">Discover the last models of humanoids, androids, and virtual assistants, organized by the Asimov Foundation.</p>
-        </section>
-        <section class="d-flex box-program m-3">
-            <i class='fab fa-galactic-republic mx-2 my-auto'></i>
-            <h4 class="font-weight-bold mx-2 my-auto">Galactic Forum</h4>
-            <p class="mx-2 my-4 program">Discuss time travels hypothesis, conspiration theories, and alternative universes with all kinds of intelligent species.</p>
+        <div class="d-md-flex justify-content-md-center events px-md-5">
+          <section class="d-flex flex-md-column box-program align-items-center justify-content-end">
+            <i class='fas fa-chalkboard-teacher text-center mr-auto my-auto mx-md-  auto icon-event'></i>
+            <h4 class="font-weight-bold my-auto mr-auto mx-md-auto name-event">Lecture</h4>
+            <p class="mx-2 my-4 my-md-auto program">Listen to the best Sci-Fi authors of all the ages and places talking about the future. </p>
           </section>
-          <section class="d-flex box-program m-3">
-              <i class='fas fa-user-astronaut mx-2 my-auto'></i>
-              <h4 class="font-weight-bold mx-2 my-auto">Space traveling</h4>
-              <p class="mx-2 my-4 program">Check the new spacial resorts and hotspots of the Galaxy Empire.</p>
+          <section class="d-flex flex-md-column box-program align-items-center justify-content-center">
+            <i class='fas fa-robot text-center mr-auto my-auto mx-md-auto icon-event'></i>
+            <h4 class="font-weight-bold my-auto mr-auto mx-md-auto name-event">Robot exhibition</h4>
+            <p class="mx-2 my-4 my-md-auto program">Discover the last models of humanoids, and androids, organized by the Asimov Foundation.</p>
+          </section>
+          <section class="d-flex flex-md-column box-program align-items-center justify- content-center">
+            <i class='fab fa-galactic-republic text-center mr-auto my-auto mx-md-auto icon-event'></i>
+              <h4 class="font-weight-bold my-auto mr-auto mx-md-auto name-event">Galactic Forum</h4>
+              <p class="mx-2 my-4 my-md-auto program">Discuss time travels hypothesis, conspiration theories, and alternative universes.</p>
             </section>
-            <section class="d-flex box-program m-3">
-                <i class='fas fa-atom mx-2 my-auto'></i>
-                <h4 class="font-weight-bold mx-2 my-auto">Microverse Networking</h4>
-                <p class="mx-2 my-4 program">Join the networking meetings to achieve atomic bonds with Sci-Fi authors and fans of all the Galaxy.</p>
-              </section>
-              <div class="text-center">
-                <button type="button" class="btn bgprimary btn-lg">Join MR Sci-Fi Summit 2020</button>
-              </div>
-      </article>
-      <!-- Featured Speakers -->
-    </article>
-      <article class="">
-        <h2 class="text-center">Featured Speakers</h2>
-        <hr>
-        <div class="container">
-          <div class="row no-gutters">
-            <figure class="d-flex col-12 col-md-6">
-              <div class="photo-author">
-                <img src="img/SpacePattern.png" alt="Space Pattern" class="background-speakers">
-                <img src="img/speakers/hgwells.webp" alt="H.G. Wells" class="speakers">
-              </div>
-              <figcaption class="bio-author">
-                  <h3>H. G. Wells</h3>
-                  <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <hr>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </figcaption>
-            </figure>
-            <figure class="d-flex col-12 col-md-6">
-              <div class="photo-author">
-                <img src="img/SpacePattern.png" alt="Space Pattern" class="background-speakers">
-                <img src="img/speakers/hg-wells.jpg" alt="H.G. Wells" class="speakers">
-              </div>
-              <figcaption>
-                  <h3>H. G. Wells</h3>
-                  <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <hr>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </figcaption>
-            </figure>
+            <section class="d-flex flex-md-column box-program align-items-center justify-content-center">
+                <i class='fas fa-user-astronaut text-center mr-auto my-auto mx-md-auto icon-event'></i>
+                <h4 class="font-weight-bold my-auto mr-auto mx-md-auto name-event">Space traveling</h4>
+              <p class="mx-2 my-4 my-md-auto program">Star trekers will show you the last solar systems conquested by the Galactic Empire.</p>
+            </section>
+            <section class="d-flex flex-md-column box-program align-items-center justify-content-center">
+                  <i class='fas fa-atom text-center mr-auto my-auto mx-md-auto icon-event'></i>
+                  <h4 class="font-weight-bold my-auto mr-auto mx-md-auto name-event">Sci-fi Bonds</h4>
+                  <p class="mx-2 my-4 my-md-auto program">Join the networking meetings to achieve atomic bonds with Sci-Fi authors.</p>
+            </section>
           </div>
-        </div>
+            <div class="text-center">
+                <button type="button" class="btn bgprimary btn-lg d-md-none">Join MR Sci-Fi Summit 2020</button>
+                <a href="https://wwww.google.com" class="whole-program text-uppercase d-none d-md-block my-md-4"><span> See the whole program </span></a>
+              </div>
+
+            </article>
+      <!-- Featured Speakers -->
+      <article class="bg-white">
+        <h2 class="text-center">Features Speakers</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <section class="card p-3">
+              <div class="row no-gutters">
+                  <div class="col-auto background-author">
+                      <img src="img/speakers/hg-wells.jpg" class="img-fluid pl-3 pt-3 speakers" alt="Author">
+                    </div>
+                    <div class="col">
+                      <div class="card-block px-2">
+                          <h5 class="card-title">H. G. Wells</h5>
+                          <p class="card-text primary"><em class="italic">Classic Sci-Fi writer & Time Traveler</em></p>
+                          <hr class="author mr-auto ml-1">
+                          <p class="card-text">H. G. Wells wrote <em class="italic">The Time Machine</em> in 1895. He spends his holidays in A.D. 802,701.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-md-6">
+                  <section class="card m-3">
+                    <div class="row no-gutters">
+                      <div class="col-auto background-author">
+                        <img src="img/speakers/hg-wells.jpg" class="img-fluid pl-3 pt-3 speakers" alt="Author">
+                      </div>
+                      <div class="col">
+                        <div class="card-block px-2">
+                          <h5 class="card-title">H. G. Wells</h5>
+                          <p class="card-text primary"><em class="italic">Classic Sci-Fi writer & Time Traveler</em></p>
+                          <hr class="author mr-auto ml-1">
+                          <p class="card-text">H. G. Wells wrote <em class="italic">The Time Machine</em> in 1895. He spends his holidays in A.D. 802,701.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <section class="card m-3">
+                    <div class="row no-gutters">
+                      <div class="col-auto background-author">
+                        <img src="img/speakers/hg-wells.jpg" class="img-fluid pl-3 pt-3 speakers" alt="Author">
+                      </div>
+                      <div class="col">
+                        <div class="card-block px-2">
+                          <h5 class="card-title">H. G. Wells</h5>
+                          <p class="card-text primary"><em class="italic">Classic Sci-Fi writer & Time Traveler</em></p>
+                          <hr class="author mr-auto ml-1">
+                          <p class="card-text">H. G. Wells wrote <em class="italic">The Time Machine</em> in 1895. He spends his holidays in A.D. 802,701.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-md-6">
+                  <section class="card m-3">
+                    <div class="row no-gutters">
+                      <div class="col-auto background-author">
+                        <img src="img/speakers/hg-wells.jpg" class="img-fluid pl-3 pt-3 speakers" alt="Author">
+                      </div>
+                      <div class="col">
+                        <div class="card-block px-2">
+                          <h5 class="card-title">H. G. Wells</h5>
+                          <p class="card-text primary"><em class="italic">Classic Sci-Fi writer & Time Traveler</em></p>
+                          <hr class="author mr-auto ml-1">
+                          <p class="card-text">H. G. Wells wrote <em class="italic">The Time Machine</em> in 1895. He spends his holidays in A.D. 802,701.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
       </article>
-
+      <!-- Partners -->
+      <article class="partner">
+        <h3> Trying this h3</h3>
+        <h4> Trying this h4 </h4>
+        <h5> Trying this h5</h5>
+        <h6> Trying this h6</h6>
+        <p> Trying this p </p>
+        <span> Trying this span</span> <br>
+        <a href="#" class="text-muted">Trying this anchor link</a>
+        <a href="#" class="box-highlight">Test this box</a>
+      </article>
     </main>
+    <footer class="d-flex align-items-center">
+        <div class="logo d-flex align-items-center">
+          <i class="fas fa-meteor"></i>
+          <h5> Microverse <br>Sci-Fi Foundation</h5>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+        </div>
+    </footer>
 
-
-    <h3> Trying this h3</h3>
-    <h4> Trying this h4 </h4>
-    <h5> Trying this h5</h5>
-    <h6> Trying this h6</h6>
-    <p> Trying this p </p>
-    <span> Trying this span</span> <br>
-    <a href="#" class="text-muted">Trying this anchor link</a>
-    <a href="#" class="box-highlight">Test this box</a>
 
 
 
