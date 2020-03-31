@@ -120,6 +120,13 @@ nav a:hover {
   padding: .3rem;
 }
 
+.box-about {
+  border: 1px solid var(--secondary);
+  background-color: var(--light);
+  margin: auto;
+  padding: .3rem;
+}
+
 .navbar {
   margin: 0;
 }
@@ -321,12 +328,46 @@ footer .fas {
 .partners {
   justify-content: flex-end;
   align-items: baseline;
-  height: 50px;
+  height: 78px;
   margin: auto;
 }
 
 footer {
   height: 150px;
+}
+
+.trantor-events {
+  background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
+  height: 28vw;
+  width: 35vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tatooine-events {
+  background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/tatooine.png");
+  height: 28vw;
+  width: 35vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.casa {
+  font-size: .8rem;
+  color: var(--dark);
 }
 
 @media screen and (min-width: 768px) {
