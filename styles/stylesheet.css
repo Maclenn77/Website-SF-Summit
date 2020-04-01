@@ -341,14 +341,18 @@ button,
   margin: auto;
 }
 
+.brands {
+  width: 75%;
+}
+
 footer {
   height: 150px;
 }
 
 .trantor-events {
   background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
-  height: auto;
-  width: 80vw;
+  height: 50vw;
+  width: 75vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,8 +361,8 @@ footer {
 
 .tatooine-events {
   background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/tatooine.png");
-  height: auto;
-  width: 80vw;
+  height: 50vw;
+  width: 75vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -602,6 +606,10 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+
+  .brands {
+    width: 60%;
   }
 
 }
