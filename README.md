@@ -77,9 +77,9 @@ This project uses the design of Cindy Shin, that is licensed by CC 4.0.
 
 You can share and remix this design, but:
 
-You must give appropiate attribution to the author.
+- You must give appropiate attribution to the author.
 
-You may not use the material for commercial purposes.
+- You may not use the material for commercial purposes.
 
 ## Getting Started
 
@@ -95,4 +95,4 @@ You need to Download the files in the Fonts folders if you want to see the origi
 - Twitter: [@srjuanpapas](https://twitter.com/srjuanpapas)
 - Linkedin: [linkedin](https://mx.linkedin.com/in/juanpaulopereztejada )
 
-You can also read my articles in [developerz.software](http://developerz.software/) 
+You can also read my articles in [developerz.software](http://developerz.software/)
