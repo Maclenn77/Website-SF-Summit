@@ -79,4 +79,4 @@ You need to Download the files in the Fonts folders if you want to see the origi
 - Twitter: [@srjuanpapas](https://twitter.com/srjuanpapas)
 - Linkedin: [linkedin](https://mx.linkedin.com/in/juanpaulopereztejada )
 
-You can also read my articles in [Developerz.software](http://developerz.software/) 
+You can also read my articles in [developerz.software](http://developerz.software/) 
