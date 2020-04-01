@@ -300,7 +300,7 @@ button,
   margin-bottom: 0.5rem;
 }
 
-#navbarNav i:not(.collapsed):after {
+#navbarNav i:not(.collapsed)::after {
   color: var(--primary);
 }
 
