@@ -21,7 +21,7 @@ All the pages have a footer with Logo and Copyright info.
 
 There's one breakpoint for this Project
 
-Mobile version < 768px
+:iphone: Mobile version ≤ 768px
 
 💻 Desktop version > 768px
 
@@ -47,13 +47,9 @@ Instead, Helvetica, Times New Roman and Arial are displayed.
 
 ![image](https://github.com/Maclenn77/Newsweek_clone_bootstrap/blob/f-branch/img/mobile.png)
 
-## Middle version
+## Desktop version
 
-![image](https://github.com/Maclenn77/Newsweek_clone_bootstrap/blob/f-branch/img/up768.png)
 
-## Large version
-
-![image](https://github.com/Maclenn77/Newsweek_clone_bootstrap/blob/f-branch/img/up990.png)
 
 ## Legal info
 
