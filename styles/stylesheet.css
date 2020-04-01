@@ -16,8 +16,8 @@ body {
   font-size: 16px;
 }
 
-.fas,
-.fab {
+.fab,
+.fas {
   font-size: 36px;
   height: 50px;
 }
@@ -314,7 +314,7 @@ button,
   content: 'More +';
 }
 
-#summary a:not(.collapsed):after {
+#summary a:not(.collapsed)::after {
   display: block;
   width: 100%;
   border: solid;
@@ -339,7 +339,7 @@ footer {
 }
 
 .trantor-events {
-  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/trantosummit.jpeg");
   height: 50vw;
   width: 75vw;
   background-position: center;
@@ -349,7 +349,7 @@ footer {
 }
 
 .tatooine-events {
-  background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/tatooine.png");
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/tatooine.png");
   height: 50vw;
   width: 75vw;
   background-position: center;
@@ -542,7 +542,7 @@ footer {
     overflow: visible;
   }
 
-  #summary a.collapsed:after {
+  #summary a.collapsed::after {
     display: none;
     width: 100%;
     border: solid;
@@ -563,7 +563,7 @@ footer {
   }
 
   .trantor-events {
-    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/trantosummit.jpeg");
     height: 28vw;
     width: 35vw;
     background-position: center;
@@ -573,7 +573,7 @@ footer {
   }
 
   .tatooine-events {
-    background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/tatooine.png");
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/tatooine.png");
     height: 28vw;
     width: 35vw;
     background-position: center;
