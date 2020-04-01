@@ -1,8 +1,7 @@
 /* CSS File for Capstone Project SF Summit */
-/* CSS File for Capstone Project SF Summit */
 @font-face {
   font-family: 'Cocogoose';
-  src: url('styles/fonts/Cocogoose.ttf') Format('truetype');
+  src: url('styles/fonts/Cocogoose.ttf') format('truetype');
 }
 
 * {
@@ -35,7 +34,7 @@ main {
 :root {
   --primary: #ec5242;
   --secondary: #d3d3d3;
-  --dark: #272A31;
+  --dark: #272a31;
 }
 
 h1, {
@@ -129,20 +128,19 @@ nav a:hover {
   border: 0.5rem solid #fff;
   background-color: var(--light);
   margin: auto;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .box-about {
   border: 1px solid var(--secondary);
   background-color: var(--light);
   margin: auto;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .navbar {
   margin: 0;
 }
-
 
 .jumbotron {
   background: none;
@@ -186,7 +184,7 @@ nav a:hover {
 
 .dark-theme-text {
   text-align: center;
-  color: var(--secondary)
+  color: var(--secondary);
 }
 
 hr {
@@ -241,8 +239,6 @@ h4 {
   height: 50px;
 }
 
-
-
 button,
 .fab,
 .main-program .fas {
@@ -262,7 +258,6 @@ button,
   color: var(--secondary);
 }
 
-
 .bgprimary {
   margin: 1rem 20%;
   border: none;
@@ -275,7 +270,7 @@ button,
 .card-title {
   color: var(--dark);
   font-weight: 700;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
 }
 
 .card-block {
@@ -302,7 +297,7 @@ button,
 }
 
 .card {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 #navbarNav i:not(.collapsed):after {
@@ -313,7 +308,7 @@ button,
   min-height: 50px !important;
 }
 
-#summary a.collapsed:after  {
+#summary a.collapsed:after {
   color: var(--primary);
   display: block;
   width: 100%;
@@ -350,7 +345,7 @@ footer {
 }
 
 .trantor-events {
-  background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
   height: 50vw;
   width: 75vw;
   background-position: center;
@@ -379,7 +374,7 @@ footer {
 }
 
 .casa {
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--dark);
 }
 
@@ -392,7 +387,7 @@ footer {
   grid-template-rows: repeat(4, 1fr);
   border: 10px solid;
   border-image: url("/img/airmailborder.png") 50 round;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #888;
   height: 300px;
   background-color: #fff;
   padding: 0;
@@ -454,7 +449,7 @@ footer {
 }
 
 .bullet {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .steps {
@@ -468,7 +463,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
   h4 {
     font-size: 1rem;
   }
@@ -547,7 +541,7 @@ footer {
   }
 
   .card {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   #summary div.collapse.show {
@@ -559,7 +553,7 @@ footer {
     overflow: visible;
   }
 
-  #summary a.collapsed:after  {
+  #summary a.collapsed:after {
     display: none;
     width: 100%;
     border: solid;
@@ -580,7 +574,7 @@ footer {
   }
 
   .trantor-events {
-    background-image: linear-gradient(rgba(236,82,66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236,82,66, 0.5)), url("/img/trantosummit.jpeg");
     height: 28vw;
     width: 35vw;
     background-position: center;
@@ -611,5 +605,4 @@ footer {
   .brands {
     width: 60%;
   }
-
 }
