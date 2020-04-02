@@ -4,6 +4,14 @@
   src: url('styles/fonts/Cocogoose.ttf') format('truetype');
 }
 
+/* Palette colors */
+:root {
+  --primary: #ec5242;
+  --secondary: #d3d3d3;
+  --dark: #272a31;
+}
+
+/* General rules for the website */
 * {
   box-sizing: border-box;
   border-radius: 0 !important;
@@ -16,6 +24,7 @@ body {
   font-size: 16px;
 }
 
+/* Classes in body */
 .icon-program {
   font-size: 36px;
   height: 50px;
@@ -36,16 +45,11 @@ main {
   margin: 0;
 }
 
-:root {
-  --primary: #ec5242;
-  --secondary: #d3d3d3;
-  --dark: #272a31;
-}
-
 h1, {
   font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
 }
 
+/* Colors rules */
 .dark {
   color: var(--dark);
 }
@@ -54,10 +58,15 @@ h1, {
   color: var(--secondary);
 }
 
+.primary {
+  color: #ec5242 !important;
+}
+
 .bag-secondary {
   background-color: var(--secondary);
 }
 
+/* Navbar toggler */
 .navbar-toggler {
   border: none;
 }
@@ -82,10 +91,6 @@ h1, {
 .icons {
   width: 100%;
   height: auto;
-}
-
-.primary {
-  color: #ec5242 !important;
 }
 
 .navbar-nav {
@@ -147,6 +152,7 @@ nav a:hover {
   margin: 0;
 }
 
+/* Rules in jumbotron. After allows to add a transparent background */
 .jumbotron {
   background: none;
   margin: 0;
