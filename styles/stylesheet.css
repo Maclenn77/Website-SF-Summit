@@ -385,7 +385,7 @@ footer {
   border-image: url("/img/airmailborder.png") 50 round;
   box-shadow: 5px 10px #888;
   height: 300px;
-  background-color: #fff;
+  background-color: var(--secondary);
   padding: 0;
   margin: auto;
   grid-gap: 1px;
@@ -404,7 +404,8 @@ footer {
   display: block;
   background-color: #fff;
   margin: 0;
-  padding-top: 1rem;
+  padding: 1rem 0.5rem;
+  padding: 0.5rem;
 }
 
 .col-grid-1 {
