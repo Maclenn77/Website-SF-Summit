@@ -83,9 +83,9 @@ You can share and remix this design, but:
 
 ## Getting Started
 
-Download the files and click in the index.HTML
+- Download the files and click in the index.HTML
 
-You need to Download the files in the Fonts folders if you want to see the original fonts.
+- Download the Font folder for seeing the original fonts
 
 ## Developed by
 
