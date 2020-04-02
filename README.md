@@ -1,21 +1,21 @@
 ## Microverse - Capstone Project (Conference)
 
-This is a Capstone project for Microverse. This is a page for Sci-Fi Summit, based in the design of [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) .
+This repo is a Capstone project for Microverse. The page is about a Sci-Fi Summit, based on the design of [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) .
 
 #### Navbar
 
-In the Navbar section with have a menu that it expands from up of 768px and it shows like  a toggler for mobile version. This feature is achieved with Bootstrap. This is the same feature for all the pages.
+The Navbar section width has a menu that expands from up of 768px, and it shows like a toggler for the mobile version. I achieved this feature with Bootstrap.
 
 #### Main
-Main section contains all the needed info in each HTML page. I combined bootstrap and CSS files for the style.
+The main section contains all the needed info on each HTML page. I combined bootstrap and CSS files for the style.
 
-In the index file I used a jumbotron in the first part. I prefered to use semantic tags for dividing the sections in CSS. Divs are only used for styling.
+In the index file, I used a jumbotron in the first part. I preferred to use semantic tags for dividing the sections in CSS. I used divs only for styling.
 
-Index and About have a section showing the partners of the event. In index, this part is only showed for desktop.
+Index and About have a section showing the partners of the event. In the index page, the website only displays this section on the desktop version.
 
 #### Footer
 
-All the pages have a footer with Logo and Copyright info.
+All the pages have a footer with Logo and Copyright info. In the index page, the website only displays this section on the desktop version.
 
 #### Break Points
 
@@ -73,11 +73,11 @@ Instead, Helvetica, Times New Roman and Arial are displayed.
 
 ## Legal info
 
-This project uses the design of Cindy Shin, that is licensed by CC 4.0.
+This project uses the design of Cindy Shin, which is licensed by CC 4.0.
 
 You can share and remix this design, but:
 
-- You must give appropiate attribution to the author.
+- You must give appropriate attribution to the author.
 
 - You may not use the material for commercial purposes.
 
@@ -93,6 +93,6 @@ You need to Download the files in the Fonts folders if you want to see the origi
 
 - Github: [@Maclenn77](https://github.com/Maclenn77)
 - Twitter: [@srjuanpapas](https://twitter.com/srjuanpapas)
-- Linkedin: [linkedin](https://mx.linkedin.com/in/juanpaulopereztejada )
+- Linkedin: [Juan Paulo Perez-Tejada](https://mx.linkedin.com/in/juanpaulopereztejada )
 
 You can also read my articles in [developerz.software](http://developerz.software/)
