@@ -449,12 +449,15 @@ footer {
 }
 
 .steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid;
   color: var(--secondary);
   font-size: 0.8rem;
   border-radius: 50px !important;
   width: 50%;
-  height: 50px;
+  height: aut;
   margin: 15px auto;
 }
 
