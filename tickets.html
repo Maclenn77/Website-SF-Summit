@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="styles/reset.css" type="text/css" media="screen" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" media="screen" />
+
+    <title>Sci-Fi Summit</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="d-none d-md-flex bg-dark justify-content-end align-items-center px-5">
+      <div class="header">
+        <a href="#"><i class="fab fa-facebook-f m-1"> </i></a>
+        <a href="#"><i class="fab fa-twitter m-1"></i></a>
+        <a href="#" class="m-1">English</a>
+        <a href="#" class="m-1">My Page</a>
+        <a href="#" class="m-1">Log Out</a>
+      </div>
+    </header>
+    <!-- Navbar of the site. It uses a bootstrap tooggler button -->
+    <nav class="navbar navbar-expand-md navbar-light bg-tranparency px-4 px-md-5">
+      <a class="d-none d-md-block navbar-brand" href="index.html">
+        <img src="img/sci-fi.png" alt="Sci-Fi logo" class="img-fluid w-50">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-muted dark"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link primary" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tickets.html">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://memecrunch.com/meme/BL90P/soylent-green-is-people">News</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="box-highlight d-none d-md-block">Sci-Fi Campaign</a>
+    </nav>
+    <!-- Main section -->
+    <main>
+      <h1 class="d-none">Purchase tickets</h1>
+      <!--Tickets  -->
+      <article class="tickets border-top text-center py-4">
+        <p class="text-right small pr-5"><a href="index.html"><i class="fas fa-home casa"></i></a><span class="primary"> > </span> <a href="about.html">About</a> <span class="primary"> > </span> <a href="tickets.html"> Tickets </a></p>
+        <h2 class="dark"> Select Tickets </h2>
+        <hr>
+        <div class="steps">
+            <i class="fas fa-space-shuttle primary py-3 bullet px-2"></i>   <span class="text-uppercase primary font-weight-bold">Step 1</span><p class="pt-3 px-2 dark">  Please select the day when you want to join MR Sci-Fi Summit 2020</p>
+        </div>
+        <!-- Ticket Prices -->
+        <form class="grid-area form-check">
+          <h6 class="boxes header-grid-1"> Ticket </h6>
+          <h6 class="boxes col-grid-1"> Date </h6>
+          <h6 class="boxes col-grid-1"> Normal </h6>
+          <h6 class="boxes col-grid-1"> Students </h6>
+          <h6 class="boxes header-grid-2"> 1-Day-Ticket </h6>
+          <h6 class="boxes col-grid-2"> 15. Oct(Thu) </h6>
+          <div class="col-grid-2 boxes">
+              <label class="prices px-auto m-auto" for="normalprices15">$3,500</label>
+              <input class="form-check-input p-4" type="radio" name="normal" id="normalprices15" value="option1">
+          </div>
+          <div class="col-grid-2 boxes">
+              <label class="prices px-auto m-auto" for="normalprices16">$1,500</label>
+                <input class="form-check-input p-4" type="radio" name="normal" id="normalprices16" value="option2">
+          </div>
+          <h6 class="boxes col-grid-3"> 16. Oct(Thu) </h6>
+          <div class="col-grid-3 boxes">
+              <label class="prices px-auto m-auto" for="studentprices15">$3,500</label>
+              <input class="form-check-input p-4" type="radio" name="normal" id="studentprices15" value="option3">
+          </div>
+          <div class="boxes col-grid-3">
+            <label class="prices px-auto m-auto" for="studentprices16">$1,500</label>
+            <input class="form-check-input px-auto" type="radio" name="normal" id="studentprices16" value="option4">
+          </div>
+
+          <h6 class="boxes col-grid-4"> 2-Day-Ticket </h6>
+          <h6 class="boxes col-grid-4"> 15.-16. Oct(Thu-Fri)</h6>
+          <div class="boxes col-grid-4">
+            <label class="prices px-auto m-auto" for="bothnormprices">$3,000</label>
+            <input class="form-check-input p-4" type="radio" name="normal" id="bothnormprices" value="option5">
+          </div>
+          <div class="boxes col-grid-4">
+            <label class="prices px-auto m-auto" for="bothstudentprice">$1,000</label>
+            <input class="form-check-input p-4" type="radio" name="normal" id="bothstudentprice" value="option6">
+          </div>
+
+          <h6 class="boxes header-grid-4">MR Sci-Fi Member</h6>
+          <h6 class="boxes col-grid-5"> 15.-16. Oct(Thu-Fri)</h6>
+          <div class="boxes col-grid-5">
+            <label class="prices px-auto m-auto" for="cssboth">$0</label>
+            <input class="form-check-input p-4" type="radio" name="normal" id="cssboth" value="option1">
+          </div>
+          <div class="boxes col-grid-5">
+            <label class="prices px-auto m-auto" for="cssstudent">$0</label>
+            <input class="form-check-input p-4" type="radio" name="normal" id="cssstudent" value="option1">
+          </div>
+
+        </form>
+      </article>
+      <!-- Lunch -->
+      <article class="border-top logo-info text-center py-4">
+        <h2 class="text-center pt-4">Pick your lunch</h2>
+        <hr>
+        <div class="steps d-flex align-items-center justify-content-center">
+            <i class="fas fa-space-shuttle primary py-3 bullet px-2"></i>   <span class="text-uppercase primary font-weight-bold">Step 2</span><p class="pt-3 px-2 dark">  Choice your favorite spacial meal for your trip</p>
+        </div>
+        <form action="thanks.html">
+          <div class="menu">
+          <div class="bag-secondary p-2">
+              <h3 class="text-center primary h-25">Day One</h3>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="check1">
+              <input type="checkbox" class="form-check-input" id="check1" name="vehicle1" value="something" >Soylent Green
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="check5">
+              <input type="checkbox" class="form-check-input" id="check5" name="vehicle2" value="something">Qagh
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" >Popplers
+            </label>
+          </div>
+          </div>
+          <div class="menu">
+          <div class="bag-secondary">
+              <h3 class="text-center primary p-2 h-25">Day Two</h3>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="check4">
+              <input type="checkbox" class="form-check-input" id="check4" name="vehicle1" value="something" >Spoo
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label" for="check2">
+              <input type="checkbox" class="form-check-input" id="check2" name="vehicle2" value="something">Rootleaf Stew
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" >Soma
+            </label>
+          </div>
+          </div>
+            <button type="submit" class="btn bgprimary py-3 px-5">Submit</button>
+        </form>
+      </article>
+      </main>
+      <!-- Partners -->
+      <footer class="partner d-none d-md-block secondary">
+        <div class="secondary d-flex align-items-center my-auto">
+          <i class="fas fa-meteor secondary"></i>
+          <h5> Microverse <br>Sci-Fi Foundation</h5>
+        </div>
+        <div class="footer-copyright text-left my-auto">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/"> Original design by Cindy Shin</a>
+        </div>
+      </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

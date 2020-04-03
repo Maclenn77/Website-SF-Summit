@@ -1,0 +1,603 @@
+/* CSS File for Capstone Project SF Summit */
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('styles/fonts/Cocogoose.ttf') format('truetype');
+}
+
+/* Palette colors */
+:root {
+  --primary: #ec5242;
+  --secondary: #d3d3d3;
+  --dark: #272a31;
+}
+
+/* General rules for the website */
+* {
+  box-sizing: border-box;
+  border-radius: 0 !important;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Classes in body */
+.icon-program {
+  font-size: 36px;
+  height: 50px;
+}
+
+.header-icons {
+  font-size: 14px;
+  height: 16px;
+}
+
+nav,
+.navbar {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  margin: 0;
+}
+
+h1, {
+  font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* Colors rules */
+.dark {
+  color: var(--dark);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.primary {
+  color: #ec5242 !important;
+}
+
+.bag-secondary {
+  background-color: var(--secondary);
+}
+
+/* Navbar toggler */
+.navbar-toggler {
+  border: none;
+}
+
+.menu {
+  width: 80%;
+  border: 1px solid;
+  border-color: var(--secondary);
+  height: 100px;
+  margin: 20px auto;
+}
+
+/* Create a background for the font */
+.jumbotron-title {
+  font-family: "Cocogoose", Helvetica, 'Times New Roman', sans-serif;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/727/437/191/sci-fi-galaxy-orange-space-wallpaper-preview.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.icons {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+time {
+  font-family: "Cocogoose", Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  color: var(--dark);
+}
+
+footer a,
+header a {
+  color: var(--secondary);
+}
+
+a:hover {
+  opacity: 0.8;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.box-highlight {
+  box-sizing: border-box;
+  border: 0.2rem solid var(--primary);
+  color: var(--primary);
+  padding: 0.3rem;
+}
+
+.box-event {
+  border: 0.5rem solid #fff;
+  background-color: var(--light);
+  margin: auto;
+  padding: 0.3rem;
+}
+
+.box-about {
+  border: 1px solid var(--secondary);
+  background-color: var(--light);
+  margin: auto;
+  padding: 0.3rem;
+}
+
+.navbar {
+  margin: 0;
+}
+
+/* Rules in jumbotron. After allows to add a transparent background */
+.jumbotron {
+  background: none;
+  margin: 0;
+  padding-left: 5vw;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  background: url("/img/saturn-planet-pattern.jpg") bottom no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -2;
+}
+
+.main-program {
+  background-color: var(--dark);
+  height: auto;
+  position: relative;
+  z-index: -2;
+}
+
+.main-program::after {
+  content: "";
+  background: url("/img/rocket.jpg") bottom repeat;
+  background-size: 24px auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.dark-theme-text {
+  text-align: center;
+  color: var(--secondary);
+}
+
+hr {
+  background-color: var(--primary);
+  height: 0.05em;
+  border: none;
+  width: 2rem;
+}
+
+.author {
+  background-color: var(--secondary);
+  height: 0.1rem;
+  border: none;
+  width: 1.2rem;
+}
+
+h1 {
+  color: var(--primary);
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+
+.box-program {
+  width: 95%;
+  height: auto;
+  background-color: rgba(211, 211, 211, 0.1);
+  margin: 1.2rem auto;
+}
+
+.bgprimary {
+  background-color: var(--primary);
+  margin: 1rem 20%;
+  border: none;
+}
+
+.speakers {
+  max-width: 150px;
+  height: auto;
+}
+
+.background-author {
+  background-image: url("/img/SpacePattern.png");
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: top left;
+}
+
+.icon-event {
+  width: 20%;
+}
+
+.name-event {
+  width: 20%;
+}
+
+.program {
+  width: 60%;
+  color: var(--secondary);
+}
+
+.card-title {
+  color: var(--dark);
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+
+.card-block {
+  max-height: 150px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.logo {
+  display: block;
+  width: 220px;
+}
+
+.partner {
+  background-color: var(--dark);
+  height: auto;
+}
+
+.card-text {
+  width: auto;
+  padding: 0;
+}
+
+.card {
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: space-between;
+}
+
+#navbarNav i:not(.collapsed)::after {
+  color: var(--primary);
+}
+
+#summary div.collapsing {
+  min-height: 50px !important;
+}
+
+#summary a.collapsed::after {
+  color: var(--primary);
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border: solid;
+  text-align: center;
+  overflow: hidden;
+  z-index: +2;
+  content: 'More +';
+}
+
+#summary a:not(.collapsed)::after {
+  display: block;
+  width: 100%;
+  border: solid;
+  text-align: center;
+  overflow: hidden;
+  content: 'Less -';
+}
+
+.partners {
+  justify-content: flex-end;
+  align-items: baseline;
+  height: 78px;
+  margin: auto;
+}
+
+footer {
+  height: 150px;
+}
+
+.trantor-events {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/trantosummit.jpeg");
+  height: 50vw;
+  width: 75vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tatooine-events {
+  background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/tatooine.png");
+  height: 50vw;
+  width: 75vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.casa {
+  font-size: 0.8rem;
+  color: var(--dark);
+}
+
+.grid-area {
+  box-sizing: border-box;
+  display: grid;
+  width: 90%;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border: 10px solid;
+  border-image: url("/img/airmailborder.png") 50 round;
+  box-shadow: 5px 10px #888;
+  height: 300px;
+  background-color: var(--secondary);
+  padding: 0;
+  margin: auto;
+  grid-gap: 1px;
+  align-items: stretch;
+}
+
+.prices {
+  display: block;
+  height: auto;
+  color: var(--primary);
+  font-family: "Lato", "Times News Roman", Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+.boxes {
+  display: block;
+  background-color: #fff;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  padding: 0.5rem;
+}
+
+.col-grid-1 {
+  grid-column: 1 / 2;
+}
+
+.header-grid-2 {
+  grid-column: 2 / 6;
+}
+
+.header-grid-4 {
+  grid-column: 8 / 11;
+}
+
+.col-grid-2 {
+  grid-column: 2 / 4;
+}
+
+.col-grid-3 {
+  grid-column: 4 / 6;
+}
+
+.col-grid-4 {
+  grid-column: 6 / 8;
+}
+
+.col-grid-5 {
+  grid-column: 8 / 11;
+}
+
+.form-check {
+  grid-column: 2 / 11;
+}
+
+.tickets {
+  background-color: #f7f7f7;
+}
+
+.bullet {
+  font-size: 0.8rem;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  color: var(--secondary);
+  font-size: 0.8rem;
+  border-radius: 50px !important;
+  width: 50%;
+  height: aut;
+  margin: 15px auto;
+}
+
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  .box-event {
+    margin-right: 35%;
+  }
+
+  .main-program {
+    height: 28rem;
+  }
+
+  .events {
+    width: 100%;
+    margin: auto;
+  }
+
+  .box-program {
+    width: 20%;
+    height: 180px;
+    font-size: 0.7rem;
+    background-color: rgba(211, 211, 211, 0.1);
+    margin: auto 0.2rem;
+  }
+
+  .icon-event {
+    font-size: 1.6rem;
+    width: auto;
+    padding: 20px;
+    height: 45px;
+  }
+
+  .name-event {
+    padding-top: 8px;
+    width: auto;
+    height: 45px;
+  }
+
+  .program {
+    width: auto;
+    height: 90px;
+    text-align: center;
+    color: var(--secondary);
+  }
+
+  .whole-program {
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+
+  .bg-tranparency {
+    background-color: #fff;
+    opacity: 1;
+  }
+
+  .featured-speakers {
+    height: auto;
+  }
+
+  .photo-author {
+    max-width: 10px;
+  }
+
+  .speakers {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .card-text {
+    width: auto;
+    padding: 0;
+  }
+
+  #summary div.collapse.show {
+    overflow: visible;
+  }
+
+  #summary div.collapse:not(.show) {
+    display: block;
+    overflow: visible;
+  }
+
+  #summary a.collapsed::after {
+    display: none;
+    width: 100%;
+    border: solid;
+    text-align: center;
+    content: 'More +';
+  }
+
+  #summary a:not(.collapsed)::after {
+    display: none;
+    width: 100%;
+    border: solid;
+    text-align: center;
+    content: 'Less -';
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .trantor-events {
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/trantosummit.jpeg");
+    height: 28vw;
+    width: 35vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .tatooine-events {
+    background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("/img/tatooine.png");
+    height: 28vw;
+    width: 35vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .brands {
+    width: 60%;
+  }
+}
