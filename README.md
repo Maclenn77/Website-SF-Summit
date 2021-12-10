@@ -1,6 +1,6 @@
 ## Microverse - Capstone Project (Conference)
 
-This repo is a Capstone project for Microverse. The page is about a Sci-Fi Summit, based on the design of [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) .
+A webpage for a Sci-Fi Summit, based on the design of [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). Developed with HTML5/CSS and Bootstrap 4.
 
 #### Navbar
 
